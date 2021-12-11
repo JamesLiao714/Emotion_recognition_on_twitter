@@ -1,8 +1,9 @@
 # DM2021-Lab2
 
-### Requirement
-- Pytorch GPU version
-- transformers
+- __Requirement__
+
+   - Pytorch GPU version
+   - transformers
 
 1. __ISA5810 Data Mining Lab 2 (take home exercise)__
 
