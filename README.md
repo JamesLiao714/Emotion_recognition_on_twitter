@@ -1,5 +1,21 @@
 # DM2021-Lab2
 
+
+### Student Information
+Name: 廖品捷
+
+Student ID: 110062537
+
+GitHub ID: JamesLiao714
+
+Kaggle name: 台灣更有力
+
+Kaggle private scoreboard snapshot: 
+
+[Snapshot](img/pic0.png)
+
+---
+
 - __Requirement__
 
    - Pytorch GPU version
@@ -15,4 +31,4 @@
 
    `Gen_model.py` - Generate the language model for our prediction.
    
-   `Emotion_pred.ipynb` - Dmonstrate how I infer the emotion of each tweet and analyze the given data, including model selection, preprocessing, etc.
+   `Emotion_pred.ipynb` - __Competition report__ dmonstrating how I infer the emotion of tweets and analyze the given data, including model selection,        preprocessing, etc.
