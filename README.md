@@ -1,4 +1,4 @@
-# DM2021-Lab2-master
+# DM2021-Lab2
 
 ### Requirement
 - Pytorch GPU version
