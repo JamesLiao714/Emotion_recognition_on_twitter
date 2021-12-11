@@ -98,32 +98,6 @@ if REGEN:
 else:
     print('using tokenizer: ', pretrain_dir)
     tokenizer = AutoTokenizer.from_pretrained(pretrain_dir, use_fast=False)
-'''
-train_df = train_df[['text', 'emotion']]
-test_df = test_df[['tweet_id', 'text']]
-
-label_map = {'anticipation': 0, 'joy': 1, 'disgust': 2, 'sadness': 3, 'trust': 4, 'fear': 5, 'surprise': 6, 'anger': 7}
-labels = train_df.emotion.map(label_map)
-
-print('START TOKENIZING ...')
-# Report the number of sentences.
-print('Number of train sentences: {:,}\n'.format(train_df.shape[0]))
-#tokenize train set
-encoded_data = tokenizer.batch_encode_plus(train_df.text.values,
-                                                add_special_tokens = True,
-                                                return_attention_mask = True,
-                                                pad_to_max_length = True,
-                                                max_length = 256,
-                                                return_tensors = 'pt')
-
-input_ids = encoded_data['input_ids']
-attention_masks = encoded_data['attention_mask']
-print('FINISHED TOKENIZEING')
-labels = torch.tensor(list(labels))
-
-# Combine the training inputs into a TensorDataset.
-dataset = TensorDataset(input_ids, attention_masks, labels)
-'''
 # tweet dataset for training and validatingｂ
 dataset = TweetDataset(train_df, 'train', tokenizer)
 
