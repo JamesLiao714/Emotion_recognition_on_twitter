@@ -8,6 +8,6 @@
 
    Please load the dataset and see the introduction of the contest [here](https://www.kaggle.com/c/dm2021-lab2-hw2/overview)
 
-   `Gen_model.py`
+   `Gen_model.py` - Generate the language model for our prediction.
    
-   `Emotion_pred.ipynb`
+   `Emotion_pred.ipynb` - Dmonstrate how I infer the emotion of each tweet and analyze the given data, including model selection, preprocessing, etc.
