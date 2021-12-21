@@ -31,4 +31,6 @@ Kaggle private scoreboard snapshot:
 
    `Gen_model.py` - Generate the language model for our prediction.
    
-   `Emotion_pred.ipynb` - __Competition report__ dmonstrating how I infer the emotion of tweets and analyze the given data, including model selection,        preprocessing, etc.
+   `Emotion_pred.ipynb` - __Competition report__ dmonstrating how I infer the emotion of tweets and analyze the given data, including model selection, preprocessing, etc.
+
+   `dataset.py` - Features engineering
