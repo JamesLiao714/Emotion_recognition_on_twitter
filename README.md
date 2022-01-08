@@ -10,7 +10,7 @@ GitHub ID: JamesLiao714
 
 Kaggle name: 台灣更有力
 
-Kaggle private scoreboard snapshot: 
+Kaggle private scoreboard snapshot:  5/95
 
 [Snapshot](img/pic0.png)
 
